@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict eY5s3etO3XiG4C49SZdNoLSgLCBDJ7q456w6QHYe1MrZYqOK5P5X4Lk8ixUirqR
+\restrict qFMgjGYhSDoEIPBcckhmvC45OAkdoESp3PsrubwStkgyMH3Ytgc7ffPxUhlPagu
 
 -- Dumped from database version 19.0
 -- Dumped by pg_dump version 19.0
@@ -222,13 +222,6 @@ ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_
 
 COPY public.applications (id, student_name, student_email, scholarship_id, scholarship_name, status) FROM stdin;
 7	Sarah	sarah@gmail.com	4	Women Empowerment Grant	Approved
-6	Deepti	deepti07@gmail.com	1	Merit Scholarship	Rejected
-5	Deepti	deepti07@gmail.com	1	Merit Scholarship	Rejected
-4	Deepti	deepti07@gmail.com	4	Women Empowerment Grant	Approved
-3	Deepti	deepti07@gmail.com	3	Need-Based Scholarship	Rejected
-2	Deepti	deepti07@gmail.com	2	Sports Scholarship	Approved
-1	Deepti	deepti07@gmail.com	1	Merit Scholarship	Approved
-8	Deepti	deepti07@gmail.com	3	Need-Based Scholarship	Pending
 9	charlie jacob	charlie@gmail.com	1	Merit Scholarship	Pending
 11	charlie jacob	charlie@gmail.com	2	Sports Scholarship	Approved
 10	charlie jacob	charlie@gmail.com	2	Sports Scholarship	Rejected
@@ -355,5 +348,5 @@ ALTER TABLE ONLY public.users
 -- PostgreSQL database dump complete
 --
 
-\unrestrict eY5s3etO3XiG4C49SZdNoLSgLCBDJ7q456w6QHYe1MrZYqOK5P5X4Lk8ixUirqR
+\unrestrict qFMgjGYhSDoEIPBcckhmvC45OAkdoESp3PsrubwStkgyMH3Ytgc7ffPxUhlPagu
 
