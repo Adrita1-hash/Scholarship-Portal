@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict LNtphvJcptdqa4Wcw2aErZk1LZgPSD4bawC0zmtL6Hvk0U7Ra7muMsRnNyTCZLE
+\restrict eY5s3etO3XiG4C49SZdNoLSgLCBDJ7q456w6QHYe1MrZYqOK5P5X4Lk8ixUirqR
 
 -- Dumped from database version 19.0
 -- Dumped by pg_dump version 19.0
@@ -272,15 +272,11 @@ COPY public.scholarships (id, name, description, amount, eligibility) FROM stdin
 --
 
 COPY public.users (id, username, password, role) FROM stdin;
-1	deepti07@gmail.com	deepti1234	student
-2	deepti08@gmail.com	deepti1234	student
-3	isha04@gmail.com	isha	student
 4	sanjana@gmail.com	1234	student
 5	tim@gmail.com	tim	student
 7	sarah@gmail.com	1234	student
 8	abcd@gmail.com	1234	admin
 9	xyz@gmail.com	xyz	admin
-10	deepti0707@gmail.com	deepti1234	student
 11	charlie@gmail.com	1234	student
 12	ayushi@gmail.com	1234	student
 13	priya	123	student
@@ -359,5 +355,5 @@ ALTER TABLE ONLY public.users
 -- PostgreSQL database dump complete
 --
 
-\unrestrict LNtphvJcptdqa4Wcw2aErZk1LZgPSD4bawC0zmtL6Hvk0U7Ra7muMsRnNyTCZLE
+\unrestrict eY5s3etO3XiG4C49SZdNoLSgLCBDJ7q456w6QHYe1MrZYqOK5P5X4Lk8ixUirqR
 
